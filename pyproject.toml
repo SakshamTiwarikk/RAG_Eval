@@ -1,0 +1,20 @@
+[project]
+name = "llm-evaluation-system"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "deepagents>=0.7.19",
+    "deepeval>=4.2.6",
+    "dotenv>=0.9.9",
+    "langchain>=1.4.2",
+    "langchain-groq",
+    "langchain-community",
+    "fastembed",
+    "langchain-text-splitters>=1.1.2",
+    "numpy>=2.5.3",
+    "pandas>=3.0.6",
+    "pymupdf>=1.28.2",
+    "streamlit>=1.64.0",
+]
